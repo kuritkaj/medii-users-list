@@ -2,9 +2,14 @@
   "name": "@medii/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "npx nx dev medii-users"
+  },
   "private": true,
   "dependencies": {
+    "@tanstack/react-query": "^5.84.2",
+    "antd": "^5.27.0",
+    "axios": "^1.11.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-router-dom": "6.29.0"
